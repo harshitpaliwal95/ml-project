@@ -14,30 +14,34 @@
 
 /* header  */
 
-#head{
+/* #head{
     margin: auto;
     padding: 12px;
     background-color: rgba(126, 126, 126, 0.322);
     font-family: 'Abel', sans-serif;
     font-size: 24px;
     text-align: center;
-}
+} */
 
 
-body{
-  
+.area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background: #5256ad;
 }
 
 .drag-area{
+  border: 2px dashed #fff;
+  height: 365px;
+  width: 602px;
   border-radius: 5px;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
   
-  display: flex;
-  min-height: 70vh;
-  background: #5256ad;
 }
 .drag-area.active{
   border: 2px solid #fff;
@@ -75,4 +79,39 @@ body{
   border-radius: 5px;
 }
 
+/* section-contaner */
+#services{
+  display: flex;
+}
 
+#services .box{
+  border: 1px solid black;
+  border-radius: 12px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  margin: 22px 78px;
+  padding: 73px;
+}
+
+
+
+
+
+
+
+
+/* utility classes */
+.h-primary{
+  font-size: 30px;
+  padding: 27px;
+  font-family: "Poppins", sans-serif;
+}
+.h-secondary{
+  font-size: 2rem;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.center{
+  text-align: center;
+}
