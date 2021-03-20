@@ -25,23 +25,19 @@
 
 
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #5256ad;
+  
 }
 
 .drag-area{
-  border: 2px dashed #fff;
-  height: 500px;
-  width: 700px;
   border-radius: 5px;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 600px;
+  
+  display: flex;
+  min-height: 70vh;
+  background: #5256ad;
 }
 .drag-area.active{
   border: 2px solid #fff;
